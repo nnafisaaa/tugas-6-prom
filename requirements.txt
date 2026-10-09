@@ -1,0 +1,21 @@
+# Runtime
+fastapi>=0.115
+uvicorn[standard]>=0.34
+python-multipart>=0.0.20
+
+# Validasi & konfigurasi
+pydantic>=2.11
+pydantic-settings>=2.7
+email-validator>=2.2
+
+# Database
+SQLAlchemy>=2.0.36
+
+# Autentikasi JWT + hashing password
+python-jose[cryptography]>=3.3.0
+passlib>=1.7.4
+bcrypt>=4.0.1
+
+# Pengujian
+pytest>=8.3
+httpx>=0.28
